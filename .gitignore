@@ -1,0 +1,7 @@
+# Sorry adding a .gitignore here for my own purposes - Brian
+# If it interferes with project, delete this file - Brian
+# If you are cloning for the first time and you don't get the below files
+# feel free to just copy & paste
+
+seeder.sql
+config.php

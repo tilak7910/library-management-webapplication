@@ -1,0 +1,45 @@
+A. AUTHOR
+    * demo adding an author with first and last name already existing in the db (with error)
+    * demo adding an author (correct)
+    * show list of author
+    * show view page of author 
+    * demo updating an author with first and last name already existing in the db (with error)
+    * demo updating an author (correct)
+    * demo deleting an author      
+    
+B. GENRE
+    * demo adding a genre with the same name already existing in the db (with error)
+    * demo adding a genre (correct)
+    * show list of genres 
+    * show view page of genre
+    * demo updating a genre with the same name already existing in the db (with error)
+    * demo updating a genre (correct)
+    * demo deleting a genre
+
+C. BOOK
+    * demo adding 2 book, each with multiple authors and genres.
+    * show list of books 
+    * show view page of book 
+    * demo updating a book 
+    * demo deleting a book 
+    * show view page of author assigned to this book 
+    * show view page of genre assigned to this book 
+    * demo deleting a book 
+
+D. BORROWER
+    * demo adding a borrower with the same email already existing in the db (with error)
+    * demo adding a borrower (correct) 
+    * show list of borrowers 
+    * demo updating a borrower with the same email already existing in the db (with error)
+    * demo updating a borrower (correct) 
+    * demo deleting a borrower
+
+E. RENTAL 
+    * demo adding a rental (correct) 
+    * demo adding a rental with the same borrower, book, and date (error)
+    * show list of unreturned books 
+    * show view page of unreturned book 
+    * attempt to delete book that is unreturned
+    * attempt to delete borrower that is unreturned 
+    * demo updating an unreturned book 
+    * delete/return an unreturned book 

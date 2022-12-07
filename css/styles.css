@@ -1,0 +1,170 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height:1.65rem;
+}
+a {
+    text-decoration: none;
+}
+hr {
+    margin-bottom: 60px;
+}
+table i {
+    height: 15px;
+    width: 15px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.table-striped tbody tr:hover {
+    background: #7580902e !important;
+}
+.badge {
+    background-color: #223855;
+    font-size:1rem;
+    font-weight:400;
+    margin-right:0.5rem;
+    margin-bottom:10px;
+    padding:5px 10px;
+}
+.ajax-results {
+    height: 400px;
+    overflow-y: auto;
+    margin-bottom: 50px;
+}
+.select-box {
+    min-height: 200px;
+}
+summary {
+    list-style: none;
+    cursor: default;
+}
+input[disabled],
+button[disabled] {
+    cursor: not-allowed;
+}
+/* select.form-control {
+    width:unset;
+}
+select.col-8 {
+    width: 66.66666667%;
+} */
+.addfield {
+    width: 50px;
+    margin-left: 20px;
+}
+.body-wrapper {
+    min-height: 650px;
+    background-color: whitesmoke;
+}
+.border-success {
+    background-color: #19875459;
+    margin: 3px;
+}
+.border-warning {
+    background-color:#ffc10766;
+    margin:3px;
+}
+.left {
+    width:350px;
+    flex-shrink:0;
+    background-color: #223855;
+    background-image: url('../assets/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index:2;
+}
+.right {
+    width:100%;
+    flex-shrink:1;
+    margin-left: 350px;
+    min-height:100vh;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding:0;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu ul li a {
+    background-color: #223855;
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    width: 110px;
+    height: 110px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 1px #847e7e;
+    padding:10px;
+    line-height: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.menu ul li a i {
+    display: block;
+    width: 100%;
+    font-size:1.5rem;
+    padding-bottom: 8px;
+}
+
+.menu ul li a div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px 0;
+}
+
+main {
+    width: 100%;
+    background: white;
+    min-height: 550px;
+    border-radius: 8px;
+    padding: 20px;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+/* Add Asterisk into a <label></label> */
+.required:after {
+  content:"*";
+  color:red;
+}
+
+.multiple-select select {
+    width:auto;
+}
+
+.multiple-select.form-group {
+    background-color:whitesmoke;
+}
+
+#view-page .row {
+    padding:1rem;
+    background-color: aqua;
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding:5px 12px;
+    cursor: pointer;
+}
+.arrow {
+    cursor: pointer;
+    padding:5px 20px;
+    font-size:1.5rem;
+}

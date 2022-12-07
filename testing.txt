@@ -1,0 +1,39 @@
+AUTHOR
+    create/insert   DONE
+    list            DONE
+    view            DONE 
+    edit/update     DONE
+    delete          DONE
+    name (sanitize) DONE
+
+GENRES
+    create/insert   DONE
+    list            DONE
+    view            DONE
+    edit/update     DONE
+    delete          DONE
+    name (sanitize) DONE
+
+BOOKS
+    create/insert   DONE 
+    list            DONE
+    view            DONE
+    edit/update     DONE
+    delete          DONE
+    name (sanitize) DONE
+
+BORROWER
+    create/insert   DONE
+    list            DONE
+    view            DONE
+    edit/update     DONE
+    delete          DONE
+    name (sanitize) DONE
+
+RENTAL
+    create/insert   DONE
+    list            DONE
+    view            DONE
+    edit/update     DONE
+    delete          DONE
+    name (sanitize) DONE
